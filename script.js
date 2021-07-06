@@ -1,12 +1,12 @@
 // Modern Javascript Crash Course
-// var, let  and const
+// let, let  and const
 
-var age = 30;
+let age = 30;
 if (true) {
-    var age = 90;
+    let age = 90;
     console.log('Inside: ', age);
 }
 console.log('Outside: ', age);
 
 // Inside:  90
-// Outside:  90
+// Outside:  30
