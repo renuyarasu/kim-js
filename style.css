@@ -8,13 +8,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  
+  width: 500px; margin: 0 auto;
+  text-align: left;
+  font-size: 0.7rem;
+  background-color: slategrey;
+}
+li{
+  list-style-position: inside;
+}
 h1 {
-  text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
-  background-color: slategrey;
   color: azure;
   padding-top: 5rem;
-  min-height: 100vh;
 }
