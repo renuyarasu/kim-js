@@ -3,19 +3,19 @@
 
 function fruitColors(fruit) {
     switch (fruit) {
-        case 'Apple':
+        case 'Apple': {
             let color = 'Red'
             return color
-        case 'Banana':
+        }
+        case 'Banana': {
             let color = 'Yellow'
             return color
-
+        }
         default:
             return 'Other colors';
 
     }
 }
-console.log(fruitColors('Apple')); // Red
-console.log(fruitColors('Banana')); // Yellow
-console.log(fruitColors('test')); // Other Color
-
+console.log(fruitColors('Apple'));
+console.log(fruitColors('Banana'));
+console.log(fruitColors('Test'));
