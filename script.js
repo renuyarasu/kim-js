@@ -1,12 +1,10 @@
 // Modern Javascript Crash Course
-// let, let  and const
+// var, let  and const
 
-let age = 30;
-if (true) {
-    let age = 90;
-    console.log('Inside: ', age);
-}
-console.log('Outside: ', age);
+const user = {};
+user.name = 'VedaGna';
+console.log(user.name); // VedaGna
 
-// Inside:  90
-// Outside:  30
+const colors = ['Apple'];
+colors.push('Banana')
+console.log(colors); // [ 'Apple', 'Banana' ]
