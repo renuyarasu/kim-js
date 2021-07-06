@@ -1,26 +1,13 @@
 // Modern Javascript Crash Course
-// Arrow function
-
-// Old
-// function myName(name) {
-//     return `My name is ${name}.`
-// }
-// console.log(myName('VedaGna'));
-
-// Arrow function
-
-/* const myName = (name) => {
-    return `My name is ${name}.`
+// Classes
+class Animal {
+    eat = () => console.log('Dogs are eating...');
 }
-console.log(myName('VedaGna'));
- */
-/* 
-const myName = (name) => `My name is ${name}.`
-console.log(myName('VedaGna'));
- */
-const myName = name => `My name is ${name}.`
-console.log(myName('VedaGna'));
-
-
-
-
+class Dog extends Animal {
+    weight = 20;
+    age = 5;
+    bark = () => console.log('Bhow...! Bhow...! Bhow...! Bhow...!');
+}
+puppy = new Dog();
+puppy.bark();
+puppy.eat();
