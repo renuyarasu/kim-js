@@ -4,10 +4,10 @@
 function fruitColors(fruit) {
     switch (fruit) {
         case 'Apple':
-            var color = 'Red'
+            let color = 'Red'
             return color
         case 'Banana':
-            var color = 'Yellow'
+            let color = 'Yellow'
             return color
 
         default:
