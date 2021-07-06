@@ -1,13 +1,16 @@
 // Modern Javascript Crash Course
 // Classes
-class Animal {
+console.clear();
+class Animals {
     eat = () => console.log('Dogs are eating...');
+
 }
-class Dog extends Animal {
-    weight = 20;
+class Dog extends Animals {
     age = 5;
-    bark = () => console.log('Bhow...! Bhow...! Bhow...! Bhow...!');
+    weight = 20;
+    bark = () => console.log('Bhow..! Bhow..! Bhow..! Bhow..! Bhow..!');
+    eat = () => console.log('Dogs are eat meat');
 }
-puppy = new Dog();
-puppy.bark();
-puppy.eat();
+puppy = new Dog;
+puppy.bark(); // Bhow..! Bhow..! Bhow..! Bhow..! Bhow..!
+puppy.eat(); // Dogs are eating...
