@@ -1,21 +1,4 @@
 // Modern Javascript Crash Course
-// The problem of using let
-
-function fruitColors(fruit) {
-    switch (fruit) {
-        case 'Apple': {
-            let color = 'Red'
-            return color
-        }
-        case 'Banana': {
-            let color = 'Yellow'
-            return color
-        }
-        default:
-            return 'Other colors';
-
-    }
-}
-console.log(fruitColors('Apple'));
-console.log(fruitColors('Banana'));
-console.log(fruitColors('Test'));
+// Template literal
+const name = 'VedaGna';
+console.log(`I'm ${name}. Nice to meet you!!`); // I'm VedaGna. Nice to meet you!!
