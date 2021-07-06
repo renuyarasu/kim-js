@@ -1,10 +1,21 @@
 // Modern Javascript Crash Course
-// var, let  and const
+// The problem of using let
 
-const user = {};
-user.name = 'VedaGna';
-console.log(user.name); // VedaGna
+function fruitColors(fruit) {
+    switch (fruit) {
+        case 'Apple':
+            var color = 'Red'
+            return color
+        case 'Banana':
+            var color = 'Yellow'
+            return color
 
-const colors = ['Apple'];
-colors.push('Banana')
-console.log(colors); // [ 'Apple', 'Banana' ]
+        default:
+            return 'Other colors';
+
+    }
+}
+console.log(fruitColors('Apple')); // Red
+console.log(fruitColors('Banana')); // Yellow
+console.log(fruitColors('test')); // Other Color
+
