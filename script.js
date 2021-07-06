@@ -1,10 +1,9 @@
 // Modern Javascript Crash Course
 // Destructuring
-let person = {
-    fname: 'VedaGna',
-    lname: 'Yarasu',
-    age: 5,
-    weight: 11,
-}
-const { fname, lname } = person;
-console.log(fname, lname); // VedaGna Yarasu
+[a, b] = [1, 2];
+console.log(a, b); // 1,2
+
+[a, b, c, ...remain] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+// console.log(...remain);
+
+console.log(c);
