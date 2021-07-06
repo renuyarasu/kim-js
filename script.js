@@ -1,16 +1,7 @@
 // Modern Javascript Crash Course
-// Classes
-console.clear();
-class Animals {
-    eat = () => console.log('Dogs are eating...');
-
-}
-class Dog extends Animals {
-    age = 5;
-    weight = 20;
-    bark = () => console.log('Bhow..! Bhow..! Bhow..! Bhow..! Bhow..!');
-    eat = () => console.log('Dogs are eat meat');
-}
-puppy = new Dog;
-puppy.bark(); // Bhow..! Bhow..! Bhow..! Bhow..! Bhow..!
-puppy.eat(); // Dogs are eating...
+// Spread operator [...]
+odd = [1, 3, 5];
+even = [2, 4, 6];
+num = [...odd, ...even];
+num.sort()
+console.log(num); // [ 1, 2, 3, 4, 5, 6 ]
