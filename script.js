@@ -1,7 +1,13 @@
 // Modern Javascript Crash Course
 // Spread operator [...]
-odd = [1, 3, 5];
-even = [2, 4, 6];
-num = [...odd, ...even];
-num.sort()
-console.log(num); // [ 1, 2, 3, 4, 5, 6 ]
+
+boy = {
+    name: 'VedaGna',
+    weight: 11,
+}
+boyAge = {
+    ...boy,
+    age: 5
+}
+console.log(boyAge.name); // VedaGna
+console.log(boyAge.age);// 5
