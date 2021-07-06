@@ -1,13 +1,10 @@
 // Modern Javascript Crash Course
 // Spread operator [...]
 
-boy = {
-    name: 'VedaGna',
-    weight: 11,
+const showValues = (...args) => {
+    // console.log(...args);
+    for (i = 0; i < args.length; i++) {
+        console.log(args[i]);
+    }
 }
-boyAge = {
-    ...boy,
-    age: 5
-}
-console.log(boyAge.name); // VedaGna
-console.log(boyAge.age);// 5
+showValues('Apples', 'Bananas', 'Oranges')
