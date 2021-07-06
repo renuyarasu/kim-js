@@ -1,4 +1,26 @@
 // Modern Javascript Crash Course
-// Template literal
-const name = 'VedaGna';
-console.log(`I'm ${name}. Nice to meet you!!`); // I'm VedaGna. Nice to meet you!!
+// Arrow function
+
+// Old
+// function myName(name) {
+//     return `My name is ${name}.`
+// }
+// console.log(myName('VedaGna'));
+
+// Arrow function
+
+/* const myName = (name) => {
+    return `My name is ${name}.`
+}
+console.log(myName('VedaGna'));
+ */
+/* 
+const myName = (name) => `My name is ${name}.`
+console.log(myName('VedaGna'));
+ */
+const myName = name => `My name is ${name}.`
+console.log(myName('VedaGna'));
+
+
+
+
